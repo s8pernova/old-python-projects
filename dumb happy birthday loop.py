@@ -1,5 +1,7 @@
 import time
 
+age = 1
+
 def wait():
     time.sleep(0.5)
 
@@ -10,10 +12,9 @@ wait()
 print("Happy birthday, happy birthday.")
 wait()
 print("Happy birthday to you!")
-
+wait()
 print()
 
-age = 1
 while True:
     print(f"Are you {age}?")
     age += 1
